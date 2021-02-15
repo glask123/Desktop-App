@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: #3b3b3b;
+}
+
+.app {
+  background: rgb(255, 208, 208);
+  background: linear-gradient(
+    37deg,
+    rgba(255, 208, 208, 1) 0%,
+    rgba(208, 228, 255, 1) 73%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.65);
+
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 3px 20px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 3px 20px -3px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
+.covid {
+  min-height: 300px;
+  flex: 1;
+}
+
+.rocket {
+  min-height: 400px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assignments {
+  min-height: 750px;
+  flex-grow: 1;
+}
+
+.weather {
+  min-height: 70px;
+  flex: 0.5;
+}
+
+.calendar {
+  min-height: 70px;
+  flex: 0.8;
+}
+
+.news {
+  min-height: 400px;
+  flex: 1;
+}
+
+.item {
+  background-color: rgba(189, 189, 189, 0.31);
+  width: 90%;
+  border-radius: 15px;
+}
+
+.launch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bar {
+  height: 80%;
+  width: 2px;
+  background-color: #333333;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rockettext {
+  text-align: right;
+  border: 2px solid red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rocketimage {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+}
